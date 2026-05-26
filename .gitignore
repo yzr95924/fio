@@ -32,4 +32,7 @@ doc/output
 /t/zbd/test-zbd-support.log.*
 /t/fuzz/fuzz_parseini
 tsc-rate
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
 compile_commands.json

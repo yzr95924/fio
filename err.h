@@ -1,6 +1,8 @@
 #ifndef FIO_ERR_H
 #define FIO_ERR_H
 
+#include <inttypes.h>
+
 /*
  * Kernel pointers have redundant information, so we can use a
  * scheme where we can return either an error code or a dentry
